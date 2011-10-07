@@ -33,13 +33,13 @@ require some interface tweaks.
 
 ## References
 
-http://diveintohtml5.org/video.html
-http://stackoverflow.com/questions/3768529/html5-video-seeking-on-ipad
+* http://diveintohtml5.info/video.html
+* http://stackoverflow.com/questions/3768529/html5-video-seeking-on-ipad
 
-http://jashkenas.github.com/coffee-script/
-http://documentcloud.github.com/backbone/
-http://api.jquery.com/category/plugins/templates/
-http://html5boilerplate.com/
+* http://jashkenas.github.com/coffee-script/
+* http://documentcloud.github.com/backbone/
+* http://api.jquery.com/category/plugins/templates/
+* http://html5boilerplate.com/
 
 ## License 
 Copyright (c) 2011 Brad Harrell
