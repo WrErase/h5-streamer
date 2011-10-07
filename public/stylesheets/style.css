@@ -1,0 +1,26 @@
+html{height:100%}
+body{height:100%;margin:0;padding:0;background:#d3d3d3}
+a{text-decoration:none}
+a:hover{text-decoration:underline;color:#aaa}
+#container{width:100%;height:100%}
+#main{background:#fff;padding:20px;margin:18px;border:1px solid #808080;border-radius:25px;-moz-border-radius:25px;-moz-box-shadow:0 0 5px 3px #888;-webkit-box-shadow:0 0 5px 3px #888;box-shadow:0 0 5px 3px #888}
+.unselectable{-moz-user-select:-moz-none;-khtml-user-select:none;-webkit-user-select:none;user-select:none}
+.small-button{padding:9px;width:80px;color:#fff;border:solid 1px #0076a3;border-radius:20px;background:#0095cd;background:-webkit-gradient(linear,left top,left bottom,from(#00cdfe),to(#0098e5));background:-moz-linear-gradient(top,#00adee,#0078a5);-moz-box-shadow:1px 1px 1px #888;-webkit-box-shadow:1px 1px 1px #888;box-shadow:1px 1px 1px #888}
+.small-button:hover{cursor:pointer}
+.button{padding-left:15px;border-radius:20px;font-weight:bold;font-size:14px;margin:10px;color:#fff;border:solid 1px #0076a3;background:#0095cd;background:-webkit-gradient(linear,left top,left bottom,from(#00cdfe),to(#0098e5));background:-moz-linear-gradient(top,#00adee,#0078a5);-moz-box-shadow:2px 2px 2px #888;-webkit-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888}
+.button-clicked{color:#b0eef0;background:-webkit-gradient(linear,left top,left bottom,from(#0068a5),to(#009dee));background:-moz-linear-gradient(top,#0078a5,#00adee)}
+.button:hover{cursor:pointer}
+#video-container{width:640px;margin:0 auto;padding-bottom:10px;}
+#video-container #video{margin-top:10px;margin-left:0 auto;margin-right:0 auto;border:1px solid #000}
+#video-container #video-name{text-align:center;font-weight:bold;font-size:16px}
+#video-container #video-controls{text-align:center;font-weight:bold;font-size:14px;vertical-align:middle;padding-top:8px;}
+#video-container #video-controls #skip_30{position:relative;top:6px;float:right}
+#video-container #video-controls #back_30{position:relative;top:6px;float:left}
+#loading{padding:30px;background:#fff;position:absolute;z-index:100;display:none;border:2px solid #d3d3d3;border-radius:20px;-moz-border-radius:20px;}
+#loading img{text-align:center}
+#media-menu{-webkit-tap-highlight-color:rgba(0,0,0,0.00);border-top:3px groove #eee;padding-top:10px;}
+#media-menu .dir_arrow{float:right;margin-right:50px}
+@media only screen and (device-width: 768px){#container{width:100%}
+}@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){#container{width:100%}
+}@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape){#container{width:100%}
+}

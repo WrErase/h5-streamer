@@ -1,0 +1,10 @@
+{
+  "name": "h5-streamer",
+  "description": "A simple node.js app to stream video with HTML5",
+  "author": "Brad Harrell <WrErase@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">=2.4.6",
+    "stylus": ">=0.15.0"
+  }
+}
